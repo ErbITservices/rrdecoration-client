@@ -21,7 +21,7 @@ const Title = styled.h2`
 const Container = styled.div`
   width: 100vw;
   height: 100%;
-  background-color: black;
+  background-color: white;
   background-position: center;
 `;
 

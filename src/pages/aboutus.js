@@ -24,16 +24,14 @@ function Aboutus() {
 
             <h1 className="hero-text1">Special Occasions</h1>
             <Link to={"/ComplainRegister"}>
-              <Link to={"/ComplainRegister"}>
-                <button className="btn">Enquiry Now</button>
-              </Link>
+              <button className="btn">Enquiry Now</button>
             </Link>
-            <button className="btn" onClick={() => console.log("hello")}>
-              Shop Now
-            </button>
+            <Link to={"/Home"}>
+              <button className="btn">Shop Now</button>
+            </Link>
           </div>
         </div>
-        <Services id="service" />
+        <Services  />
         <About />
         <Gallery />
         <Contectus />

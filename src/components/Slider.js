@@ -18,9 +18,11 @@ const Container = styled.div`
 const ImageWrapper = styled.div`
   width: 100%;
   max-height: 65vh;
-  max-height: 65dvh;
+  max-height: 70dvh;
   overflow: hidden;
   border-radius: 20px;
+  background-position: center;
+  background-size: cover;
 `;
 
 const Image = styled.img`
@@ -48,14 +50,14 @@ const Title = styled.h1`
   font-family: Arial, Helvetica, sans-serif;
   @media only screen and (max-width: 900px) {
     font-size: 40px;
-    color: white;
+    color: black;
   }
-  color: white;
+  color: black;
 `;
 const Description = styled.span`
   font-family: "Hanken Grotesk", sans-serif;
   margin-bottom: 15px;
-  color: white;
+  color: black;
 `;
 const Button = styled.button`
   margin-bottom: 5px;
@@ -76,7 +78,7 @@ function Slider() {
   return (
     <Container>
       <ImageWrapper>
-        <Image src="https://www.RRDecoration.org/_next/image?url=https%3A%2F%2Fcdn.dotpe.in%2FkiranaStatic%2FPremium_Images%2FMobileAccessories%2FwebImages%2FJPEG%2Fbgth1.jpg&w=1920&q=75" />
+        <Image src="https://www.fnpweddings.com/wp-content/uploads/2023/07/Mandap.jpg" />
       </ImageWrapper>
       <Info>
         <Title>{heroInfo.title}</Title>

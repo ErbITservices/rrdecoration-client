@@ -18,58 +18,10 @@ const Container = styled.div`
   align-items: center;
   margin: 10px 0px;
 `;
-const Title = styled.h1`
-  font-size: 70px;
-  margin-bottom: 25px;
-  text-align: center;
-  @media only screen and (max-width: 500px) {
-    font-size: 50px;
-  }
-`;
-const Description = styled.div`
-  font-size: 1.6rem;
-  margin-bottom: 1.6rem;
-  margin: 1.6rem 5%;
-  text-align: center;
-  @media only screen and (max-width: 500px) {
-    font-size: 17px;
-  }
-  ${mobile({
-    fontSize: "1rem",
-  })}
-`;
-const InputContainer = styled.div`
-  height: 7%;
-  width: 50%;
-  background-color: transperent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  ${mobile({
-    width: "80%",
-  })}
-`;
 
-const Button = styled.button`
-  padding: 10px 20px;
-  font-weight: 600;
-  max-width: 150px;
-  border-radius: 10px;
-  // font-size: 50px
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-  border: none;
-  flex: 1;
-  background-color: #6fc3c9;
-  color: black;
-  cursor: pointer;
-  &:hover {
-    transform: scale(1);
-    background-color: #4d9296;
-  }
-`;
+ 
+
+
 
 function Services() {
   const navigator = useNavigate();

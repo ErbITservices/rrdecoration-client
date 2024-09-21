@@ -15,6 +15,8 @@ const Container = styled.div`
 
   background-position: center;
   background-size: cover;
+  background: white;
+  
 `;
 const Title = styled.h1`
   margin: 20px 20px;
@@ -71,7 +73,7 @@ function ProductList(props) {
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <Container style={{ backgroundImage: `url(${mainbackground})` }}>
+    <Container >
       <Announcments />
       <Navbar />
       <Title>{cat || "All Products"}</Title>

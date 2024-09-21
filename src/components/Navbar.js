@@ -219,8 +219,9 @@ function Navbar() {
     const fetchh = async () => {
       const { data } = await userRequest.get("api/cart/size");
       dispatch(setProduct(data.size));
-    };
-    fetchh();
+    
+      fetchh();
+    }
   }, []);
 
   const [searchProducts, setSearchProducts] = useState();

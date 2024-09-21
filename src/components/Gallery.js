@@ -90,15 +90,15 @@ function Gallery() {
           className="gallery-pic"
         />
         <img
-          src="https://image3.jdomni.in/banner/08092022/21/0A/B0/FF311FB47E993397F6B09C303F_1662632964447.jpeg?output-format=webp"
+          src="https://i.pinimg.com/originals/67/f5/e5/67f5e56e842b9f21880d75feea2cb47b.jpg"
           className="gallery-pic"
         />
         <img
-          src="https://image3.jdomni.in/banner/08092022/21/0A/B0/FF311FB47E993397F6B09C303F_1662632964447.jpeg?output-format=webp"
+          src="https://www.weddingsutra.com/images/Vendor_Images/Wedding-decor/the-decor-company/the-decor-company-02.jpg"
           className="gallery-pic"
         />
         <img
-          src="https://image1.jdomni.in/banner/08092022/97/E3/B7/135ECA0A558803DD335A756DB7_1662632939261.jpeg?output-format=webp"
+          src="https://www.weddingsutra.com/images/Vendor_Images/Wedding-decor/the-decor-company/the-decor-company-01.jpg"
           className="gallery-pic"
         />
       </div>

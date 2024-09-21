@@ -101,6 +101,10 @@ function Gallery() {
           src="https://www.weddingsutra.com/images/Vendor_Images/Wedding-decor/the-decor-company/the-decor-company-01.jpg"
           className="gallery-pic"
         />
+        <img
+          src="https://www.weddingsutra.com/images/Vendor_Images/Wedding-decor/the-decor-company/the-decor-company-03.jpg"
+          className="gallery-pic"
+        />
       </div>
     </Container>
   );

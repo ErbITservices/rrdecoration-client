@@ -16,10 +16,8 @@
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
-     display: flex;
+     
      text-align: center;
-     align-items: center;
-     justify-content: center;
 }
 .highlight{
     font-weight: 400;

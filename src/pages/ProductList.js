@@ -112,7 +112,6 @@ function ProductList(props) {
         </Filter>
       </FilterContainer>
       <Product cat={cat} filter={filter} sort={sort} />
-      <Services />
       <Footer />
     </Container>
   );

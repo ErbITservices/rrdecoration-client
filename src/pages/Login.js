@@ -85,7 +85,7 @@ const Error = styled.span`
 function Login(props) {
   //to change title as soon as component mounts
   useEffect(() => {
-    document.title = `Panara - ${props.title}`;
+    document.title = `RRDecoration - ${props.title}`;
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const [email, setEmail] = useState("");

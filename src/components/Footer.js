@@ -102,9 +102,9 @@ function Footer() {
         <Left>
           <Logo>RRDecoration.</Logo>
           <Description>
-            We are Panara Enterprise Pvt LTD and our company has successfully
-            completed many projects with Our Government Of India and also we
-            have worked with our State Go...
+            We are RRDecoration Enterprise Pvt LTD and our company has
+            successfully completed many projects with Our Government Of India
+            and also we have worked with our State Go...
           </Description>
           <SocialContainer>
             <SocialIcons

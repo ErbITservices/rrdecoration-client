@@ -15361,7 +15361,7 @@
                 WDS_SOCKET_PORT: void 0,
                 FAST_REFRESH: !0,
                 REACT_APP_BACKEND_API_BASE_URL:
-                  "https://panara-backend-1.onrender.com",
+                  "https://RRDecoration-backend-1.onrender.com",
               } &&
             ({
               NODE_ENV: "production",
@@ -15371,7 +15371,7 @@
               WDS_SOCKET_PORT: void 0,
               FAST_REFRESH: !0,
               REACT_APP_BACKEND_API_BASE_URL:
-                "https://panara-backend-1.onrender.com",
+                "https://RRDecoration-backend-1.onrender.com",
             }.REACT_APP_SC_ATTR ||
               {
                 NODE_ENV: "production",
@@ -15381,7 +15381,7 @@
                 WDS_SOCKET_PORT: void 0,
                 FAST_REFRESH: !0,
                 REACT_APP_BACKEND_API_BASE_URL:
-                  "https://panara-backend-1.onrender.com",
+                  "https://RRDecoration-backend-1.onrender.com",
               }.SC_ATTR)) ||
           "data-styled",
         S = "undefined" != typeof window && "HTMLElement" in window,
@@ -15398,7 +15398,7 @@
                     WDS_SOCKET_PORT: void 0,
                     FAST_REFRESH: !0,
                     REACT_APP_BACKEND_API_BASE_URL:
-                      "https://panara-backend-1.onrender.com",
+                      "https://RRDecoration-backend-1.onrender.com",
                   } &&
                 (void 0 !==
                   {
@@ -15409,7 +15409,7 @@
                     WDS_SOCKET_PORT: void 0,
                     FAST_REFRESH: !0,
                     REACT_APP_BACKEND_API_BASE_URL:
-                      "https://panara-backend-1.onrender.com",
+                      "https://RRDecoration-backend-1.onrender.com",
                   }.REACT_APP_SC_DISABLE_SPEEDY &&
                 "" !==
                   {
@@ -15420,7 +15420,7 @@
                     WDS_SOCKET_PORT: void 0,
                     FAST_REFRESH: !0,
                     REACT_APP_BACKEND_API_BASE_URL:
-                      "https://panara-backend-1.onrender.com",
+                      "https://RRDecoration-backend-1.onrender.com",
                   }.REACT_APP_SC_DISABLE_SPEEDY
                   ? "false" !==
                       {
@@ -15431,7 +15431,7 @@
                         WDS_SOCKET_PORT: void 0,
                         FAST_REFRESH: !0,
                         REACT_APP_BACKEND_API_BASE_URL:
-                          "https://panara-backend-1.onrender.com",
+                          "https://RRDecoration-backend-1.onrender.com",
                       }.REACT_APP_SC_DISABLE_SPEEDY &&
                     {
                       NODE_ENV: "production",
@@ -15441,7 +15441,7 @@
                       WDS_SOCKET_PORT: void 0,
                       FAST_REFRESH: !0,
                       REACT_APP_BACKEND_API_BASE_URL:
-                        "https://panara-backend-1.onrender.com",
+                        "https://RRDecoration-backend-1.onrender.com",
                     }.REACT_APP_SC_DISABLE_SPEEDY
                   : void 0 !==
                       {
@@ -15452,7 +15452,7 @@
                         WDS_SOCKET_PORT: void 0,
                         FAST_REFRESH: !0,
                         REACT_APP_BACKEND_API_BASE_URL:
-                          "https://panara-backend-1.onrender.com",
+                          "https://RRDecoration-backend-1.onrender.com",
                       }.SC_DISABLE_SPEEDY &&
                     "" !==
                       {
@@ -15463,7 +15463,7 @@
                         WDS_SOCKET_PORT: void 0,
                         FAST_REFRESH: !0,
                         REACT_APP_BACKEND_API_BASE_URL:
-                          "https://panara-backend-1.onrender.com",
+                          "https://RRDecoration-backend-1.onrender.com",
                       }.SC_DISABLE_SPEEDY &&
                     "false" !==
                       {
@@ -15474,7 +15474,7 @@
                         WDS_SOCKET_PORT: void 0,
                         FAST_REFRESH: !0,
                         REACT_APP_BACKEND_API_BASE_URL:
-                          "https://panara-backend-1.onrender.com",
+                          "https://RRDecoration-backend-1.onrender.com",
                       }.SC_DISABLE_SPEEDY &&
                     {
                       NODE_ENV: "production",
@@ -15484,7 +15484,7 @@
                       WDS_SOCKET_PORT: void 0,
                       FAST_REFRESH: !0,
                       REACT_APP_BACKEND_API_BASE_URL:
-                        "https://panara-backend-1.onrender.com",
+                        "https://RRDecoration-backend-1.onrender.com",
                     }.SC_DISABLE_SPEEDY)
         );
       function j(e) {
@@ -16595,7 +16595,7 @@
       const Te = Re;
       var Ne = n(854),
         Ie = n.n(Ne);
-      const ze = "https://panara-backend-1.onrender.com";
+      const ze = "https://RRDecoration-backend-1.onrender.com";
       const Le = Ie().create({ baseURL: ze }),
         Me = Ie().create({ baseURL: ze });
       Me.interceptors.request.use((e) => {
@@ -24154,7 +24154,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );}
                       (0, De.jsx)(tc, { children: "RRDecoration." }),
                       (0, De.jsx)(rc, {
                         children:
-                          "We are Panara Enterprise Pvt LTD and our company has successfully completed many projects with Our Government Of India and also we have worked with our State Go...",
+                          "We are RRDecoration Enterprise Pvt LTD and our company has successfully completed many projects with Our Government Of India and also we have worked with our State Go...",
                       }),
                       (0, De.jsxs)(ic, {
                         children: [
@@ -25385,7 +25385,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );}
                                             "https://toppng.com/uploads/preview/astronaut-art-png-jpg-royalty-free-stock-astronauta-dibujo-11562856188offwkk8qo8.png",
                                           order_id: t.id,
                                           callback_url:
-                                            "https://panara-backend-1.onrender.com/api/buy/paymentVerify",
+                                            "https://RRDecoration-backend-1.onrender.com/api/buy/paymentVerify",
                                           prefill: {
                                             name: `${d.firstName} ${d.lastName}`,
                                             email: d.email,
@@ -25519,7 +25519,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );}
 `;
       const Fd = function (t) {
           (0, e.useEffect)(() => {
-            document.title = `Panara - ${t.title}`;
+            document.title = `RRDecoration - ${t.title}`;
           }, []);
           const [n, r] = (0, e.useState)(""),
             [o, i] = (0, e.useState)(""),
@@ -27920,7 +27920,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );}
                                             image: a.img,
                                             order_id: e.id,
                                             callback_url:
-                                              "https://panara-backend-1.onrender.com/api/buy/paymentVerify",
+                                              "https://RRDecoration-backend-1.onrender.com/api/buy/paymentVerify",
                                             prefill: {
                                               name: `${k.firstName} ${k.lastName}`,
                                               email: k.email,
@@ -28794,7 +28794,7 @@ text-align: center;
                       }),
                       (0, De.jsxs)("p", {
                         children: [
-                          "We are Panara Enterprise Pvt LTD and our company has successfully completed many projects with Our Government Of India and also we have worked with our State Government that is the Government Of Gujarat. Our successfully completed Projects are like Library Automation, Data Retro Conversion, Captcha Entry, Documents Scanning, Copy Paste work from College Source.org , Website Development, Mobile Application Development.",
+                          "We are RRDecoration Enterprise Pvt LTD and our company has successfully completed many projects with Our Government Of India and also we have worked with our State Government that is the Government Of Gujarat. Our successfully completed Projects are like Library Automation, Data Retro Conversion, Captcha Entry, Documents Scanning, Copy Paste work from College Source.org , Website Development, Mobile Application Development.",
                           " ",
                         ],
                       }),
@@ -28880,7 +28880,7 @@ text-align: center;
                     children: [
                       " ",
                       "Why Choose ",
-                      (0, De.jsx)("span", { children: "Panara IT" }),
+                      (0, De.jsx)("span", { children: "RRDecoration IT" }),
                     ],
                   }),
                   (0, De.jsxs)("ul", {

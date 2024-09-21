@@ -1,54 +1,55 @@
 export const hero = [
   {
-    title: "Find Your Perfect accessories at PANARAIT",
+    title: "Find Your Perfect accessories at RRDecoration",
     description:
       "From digital devices to books and statinory, we have something for everyone. so you can look and feel your best. Shop with us today.",
     cta: "Browse Our Collection",
   },
   {
-    title: "Upgrade Your device with High-Quality accessories from PANARAIT",
+    title:
+      "Upgrade Your device with High-Quality accessories from RRDecoration",
     description:
       "Discover our wide range of accessories . Shop with us now and take your device  to the next level.",
     cta: "Shop Now",
   },
   {
-    title: "Experience the Quality and service of PANARAIT",
+    title: "Experience the Quality and service of RRDecoration",
     description:
-      "At PANARAIT, we are committed to providing our customers with the best possible shopping experience. From the moment you visit our website, you will be greeted with a wide selection of our products. Shop with us now and see the difference for yourself.",
+      "At RRDecoration, we are committed to providing our customers with the best possible shopping experience. From the moment you visit our website, you will be greeted with a wide selection of our products. Shop with us now and see the difference for yourself.",
     cta: "Start Shopping",
   },
   {
-    title: "Stay Ahead of the Trends with PANARAIT",
+    title: "Stay Ahead of the Trends with RRDecoration",
     description:
       "we have the latest products. Our products are made with quality materials and attention to detail, ensuring that you always look and feel your best. Shop with us now and stay ahead of the curve.",
     cta: "Shop New Arrivals",
   },
   {
-    title: "Get the Best Value for Your Money at PANARAIT",
+    title: "Get the Best Value for Your Money at RRDecoration",
     description:
       "We believe that high-quality products doesn't have to break the bank. That's why we offer a wide range of affordable options. Shop with us and discover the best value for your money.",
     cta: "View Our Deals",
   },
   {
-    title: "Join the PANARAIT Community and Get Exclusive Benefits",
+    title: "Join the RRDecoration Community and Get Exclusive Benefits",
     description:
-      "When you shop with us, you're not just getting great products - you're joining a community of individuals who love quality. As a member of the PANARAIT community, you'll get access to exclusive discounts, early access to new products, and much more. Sign up now and start enjoying the benefits.",
+      "When you shop with us, you're not just getting great products - you're joining a community of individuals who love quality. As a member of the RRDecoration community, you'll get access to exclusive discounts, early access to new products, and much more. Sign up now and start enjoying the benefits.",
     cta: "Join Now",
   },
   {
-    title: "Shop the Best in Quality at PANARAIT",
+    title: "Shop the Best in Quality at RRDecoration",
     description:
       "Our products are made with the finest materials and attention to detail, ensuring that you always look and feel your best.Shop with us now and experience the difference for yourself.",
     cta: "Shop Now",
   },
   {
-    title: "Find Your's Perfect at PANARAIT",
+    title: "Find Your's Perfect at RRDecoration",
     description:
       "With a wide range of prodcts , we have something for everyone. Our products are made with Quality and durability in mind, so you can feel confident and comfortable. Shop with us now.",
     cta: "Browse Our Collection",
   },
   {
-    title: "Discover the Best at PANARAIT",
+    title: "Discover the Best at RRDecoration",
     description:
       "we have the latest products. Our products are made with quality materials and attention to detail, ensuring that you always look and feel your best. Shop with us now and discover the best.",
     cta: "Shop Now",

@@ -97,7 +97,7 @@ const SignupSuccessDiv = styled.h1`
 function SingUp(props) {
   //to change title as soon as component mounts
   useEffect(() => {
-    document.title = `PANARAIT - ${props.title}`;
+    document.title = `RRDecoration - ${props.title}`;
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const initialValue = {

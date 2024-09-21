@@ -23,20 +23,17 @@ const Container = styled.div`
   height: 100%;
   background-color: black;
   background-position: center;
-  
 `;
 
 const Home = (props) => {
   //to change title as soon as component mounts
   useEffect(() => {
-    document.title = `PanaraIt - ${props.title}`;
+    document.title = `RRDecoration - ${props.title}`;
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <>
-      <Container
-        
-      >
+      <Container>
         <Announcments />
         <Navbar />
         <Slider />

@@ -231,7 +231,7 @@ function ProductPage(props) {
 
   //to change title as soon as component mounts
   useEffect(() => {
-    document.title = `PanaraIt - ${props.title}`;
+    document.title = `RRDecoration - ${props.title}`;
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   //axios req used to cancel prev request

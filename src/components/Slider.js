@@ -1,49 +1,47 @@
-import { useNavigate } from 'react-router-dom'
-import styled from 'styled-components'
-import { hero } from '../DummyData'
-import {mobile} from '../Responsive'
+import { useNavigate } from "react-router-dom";
+import styled from "styled-components";
+import { hero } from "../DummyData";
+import { mobile } from "../Responsive";
 
 const Container = styled.div`
-    margin: auto;
-    width: 1600px;
-    max-width: 90%;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    margin-bottom: 100px;
-    /* ${mobile({
-        display: "none",
-    })}  */
-    
-`
+  margin: auto;
+  width: 1600px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  /* ${mobile({
+    display: "none",
+  })}  */
+`;
 const ImageWrapper = styled.div`
-    width: 100%;    
-    max-height: 65vh;
-    max-height: 65dvh;
-    overflow: hidden;
-    border-radius: 20px;
-`
+  width: 100%;
+  max-height: 65vh;
+  max-height: 65dvh;
+  overflow: hidden;
+  border-radius: 20px;
+`;
 
 const Image = styled.img`
-    width: 100%;
-    object-fit: cover;
-    margin-bottom: 20px;
-    object-position: center;
-`
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  object-position: center;
+`;
 
 const Info = styled.div`
-    width: 1100px;
-    max-width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    
-    @media only screen and (max-width: 900px) {
-        align-items: flex-start
-    }
-`
+  width: 1100px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media only screen and (max-width: 900px) {
+    align-items: flex-start;
+  }
+`;
 const Title = styled.h1`
   font-size: 50px;
   margin-bottom: 10px;
@@ -55,42 +53,37 @@ const Title = styled.h1`
   color: white;
 `;
 const Description = styled.span`
-    font-family: 'Hanken Grotesk', sans-serif;
-    margin-bottom: 15px;
-    color:white
-`
+  font-family: "Hanken Grotesk", sans-serif;
+  margin-bottom: 15px;
+  color: white;
+`;
 const Button = styled.button`
-    margin-bottom: 5px;
-    font-family: 'Hanken Grotesk', sans-serif;
-    border-radius: 2vmax;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    border: 1px solid white
-    
-
-`
+  margin-bottom: 5px;
+  font-family: "Hanken Grotesk", sans-serif;
+  border-radius: 2vmax;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
+`;
 
 function Slider() {
-    const navigate = useNavigate();
-    const index = Math.floor(Math.random() * 8) + 1
-    const heroInfo = hero[index]
-    console.log(hero)
-
-
+  const navigate = useNavigate();
+  const index = Math.floor(Math.random() * 8) + 1;
+  const heroInfo = hero[index];
+  console.log(hero);
 
   return (
     <Container>
       <ImageWrapper>
-        <Image src="https://www.panarait.org/_next/image?url=https%3A%2F%2Fcdn.dotpe.in%2FkiranaStatic%2FPremium_Images%2FMobileAccessories%2FwebImages%2FJPEG%2Fbgth1.jpg&w=1920&q=75" />
+        <Image src="https://www.RRDecoration.org/_next/image?url=https%3A%2F%2Fcdn.dotpe.in%2FkiranaStatic%2FPremium_Images%2FMobileAccessories%2FwebImages%2FJPEG%2Fbgth1.jpg&w=1920&q=75" />
       </ImageWrapper>
       <Info>
         <Title>{heroInfo.title}</Title>
         <Description>{heroInfo.description}</Description>
-        
       </Info>
     </Container>
   );
 }
 
-export default Slider
+export default Slider;

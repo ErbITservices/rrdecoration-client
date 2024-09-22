@@ -42,10 +42,8 @@ function Services() {
             tents chosen.
           </h3>
           <Link to={"/ComplainRegister"}>
-              <button className="btn" >
-                Enquiry Now
-              </button>
-            </Link>
+            <button className="btn">Enquiry Now</button>
+          </Link>
         </div>
         <div className="service-card">
           <img
@@ -53,17 +51,15 @@ function Services() {
               "https://image2.jdomni.in/banner/08092022/24/B3/BF/E71659F5354D850DE9723FE306_1662632642919.jpg?output-format=webp"
             }
           ></img>
-          <h1 className="service-h1">Wedding Decor</h1>
+          <h1 className="service-h1">Corporate Events</h1>
           <h3>
-            We create a divine experience that you will never forget, keeping
-            your taste, style and budget in mind with suitable decor and wedding
-            tents chosen.
+            We provide event solution for a wide range of events like
+            conventions, trade shows, meetings & conferences with the best
+            suitable set up and food.
           </h3>
           <Link to={"/ComplainRegister"}>
-              <button className="btn" >
-                Enquiry Now
-              </button>
-            </Link>
+            <button className="btn">Enquiry Now</button>
+          </Link>
         </div>
         <div className="service-card">
           <img
@@ -71,17 +67,14 @@ function Services() {
               "https://image1.jdomni.in/banner/08092022/14/6E/E9/CC07690157326B73D3D6AE94A4_1662632560447.jpg?output-format=webp"
             }
           ></img>
-          <h1 className="service-h1">Wedding Decor</h1>
+          <h1 className="service-h1">Private Occasions</h1>
           <h3>
-            We create a divine experience that you will never forget, keeping
-            your taste, style and budget in mind with suitable decor and wedding
-            tents chosen.
+            We ensure that the event is made memorable with exquisite delicacies
+            prepared according to the theme of the event.
           </h3>
           <Link to={"/ComplainRegister"}>
-              <button className="btn" >
-                Enquiry Now
-              </button>
-            </Link>
+            <button className="btn">Enquiry Now</button>
+          </Link>
         </div>
         <div className="service-card">
           <img
@@ -89,17 +82,14 @@ function Services() {
               "https://image3.jdomni.in/banner/08052018/5F/18/30/2BF3DA7EA37BEFA3428929DCC2_1525772137585.jpg?output-format=webp"
             }
           ></img>
-          <h1 className="service-h1">Wedding Decor</h1>
+          <h1 className="service-h1">Theme Parties</h1>
           <h3>
-            We create a divine experience that you will never forget, keeping
-            your taste, style and budget in mind with suitable decor and wedding
-            tents chosen.
+            We portray the chosen theme in all areas from the venue, decor, food
+            and other party factors to bring the party to life.
           </h3>
           <Link to={"/ComplainRegister"}>
-              <button className="btn" >
-                Enquiry Now
-              </button>
-            </Link>
+            <button className="btn">Enquiry Now</button>
+          </Link>
         </div>
         <div className="service-card">
           <img
@@ -107,17 +97,14 @@ function Services() {
               "https://image3.jdomni.in/banner/08092022/F4/80/7D/A992EB0F36BC32247A2575FDAE_1662632713291.jpg?output-format=webp"
             }
           ></img>
-          <h1 className="service-h1">Wedding Decor</h1>
+          <h1 className="service-h1">Reception & Cocktail Parties</h1>
           <h3>
-            We create a divine experience that you will never forget, keeping
-            your taste, style and budget in mind with suitable decor and wedding
-            tents chosen.
+            Whether the mood is traditional or fashionable, we create an
+            atmosphere that is warm and personalized in every sense.
           </h3>
           <Link to={"/ComplainRegister"}>
-              <button className="btn" >
-                Enquiry Now
-              </button>
-            </Link>
+            <button className="btn">Enquiry Now</button>
+          </Link>
         </div>
         <div className="service-card">
           <img
@@ -125,19 +112,15 @@ function Services() {
               "https://image1.jdomni.in/banner/08092022/B9/96/DF/AB216BA7452897F7B8A3B2CCD5_1662632760156.jpg?output-format=webp"
             }
           ></img>
-          <h1 className="service-h1">Wedding Decor</h1>
+          <h1 className="service-h1">Birthday Parties</h1>
           <h3>
-            We create a divine experience that you will never forget, keeping
-            your taste, style and budget in mind with suitable decor and wedding
-            tents chosen.
+            Our team is committed to provide smooth execution of birthday
+            parties of all age groups by providing delicious food and decor.
           </h3>
           <Link to={"/ComplainRegister"}>
-              <button className="btn" >
-                Enquiry Now
-              </button>
-            </Link>
+            <button className="btn">Enquiry Now</button>
+          </Link>
         </div>
-        
       </div>
     </Container>
   );

@@ -286,7 +286,7 @@ box-shadow: 0 0 10px white;
         width: 100%;
     }
 }
-@media (max-width: 350px) {
+@media (max-width: 380px) {
     .heading{
         font-size: 50px;
     }
@@ -295,7 +295,7 @@ box-shadow: 0 0 10px white;
         margin: 50px 0px;
     }
     .hero-text2{
-        font-size: 20px;
+        font-size: 30px;
     }
     .hero-text1{
         font-size: 50px;

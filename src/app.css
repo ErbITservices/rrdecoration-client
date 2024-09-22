@@ -220,6 +220,9 @@ justify-content: center;
           loading:"lazy";
           referrerpolicy:"no-referrer-when-downgrade";
 }
+.complain-container{
+    text-align: center;
+}
 .enquiry-container{
     /* background-color: #7546a5; */
     text-align: center;

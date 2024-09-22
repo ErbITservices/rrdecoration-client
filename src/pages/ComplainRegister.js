@@ -54,7 +54,7 @@ function ComplainRegister() {
   return (
     <>
       <Navbar />
-      <form className="container">
+      <form className="complain-container">
         <div className="enquiry-container">
           <h1>Send Enquiry</h1>
           <div className="inputfield">

@@ -1,15 +1,14 @@
 export const hero = [
   {
-    title: "Find Your Perfect accessories at RRDecoration",
+    title: "Find Your Perfect Decor at RRDecoration",
     description:
-      "From digital devices to books and statinory, we have something for everyone. so you can look and feel your best. Shop with us today.",
+      "From event Decor and management to each and every Decoration items , we have something for everyone. so you can look and feel your best. Shop with us today.",
     cta: "Browse Our Collection",
   },
   {
-    title:
-      "Upgrade Your device with High-Quality accessories from RRDecoration",
+    title: "Make your event more memorable and beautiful with RRDecoration",
     description:
-      "Discover our wide range of accessories . Shop with us now and take your device  to the next level.",
+      "Discover our wide range of options . Shop with us now and make your event the next level.",
     cta: "Shop Now",
   },
   {

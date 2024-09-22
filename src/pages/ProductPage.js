@@ -367,7 +367,7 @@ function ProductPage(props) {
       image: product.img,
       order_id: Dborder.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
       callback_url:
-        "https://rrdecoration-backend.onrender.com/api/buy/paymentVerify",
+        "https://rrdecoration-backend.vercel.app//api/buy/paymentVerify",
       prefill: {
         name: `${user.firstName} ${user.lastName}`,
         email: user.email,

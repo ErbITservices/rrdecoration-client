@@ -103,8 +103,7 @@ function Footer() {
           <Logo>RRDecoration.</Logo>
           <Description>
             We are RRDecoration Enterprise Pvt LTD and our company has
-            successfully completed many projects with Our Government Of India
-            and also we have worked with our State Go...
+            successfully completed many events.
           </Description>
           <SocialContainer>
             <SocialIcons
@@ -140,29 +139,26 @@ function Footer() {
         <Center>
           <Title>Useful Links</Title>
           <List>
-            <ListItem>Mouse & Key Board</ListItem>
-            <ListItem>Printer Material</ListItem>
-            <ListItem>Scanner</ListItem>
-            <ListItem>Login</ListItem>
-            <ListItem>Sign up</ListItem>
-            <ListItem>Wish list</ListItem>
-            <ListItem>Cart</ListItem>
-            <ListItem>Categorys</ListItem>
-            <ListItem>Terms</ListItem>
-            <ListItem>My Account</ListItem>
+            <ListItem>party decoration</ListItem>
+            <ListItem>birtday decoration</ListItem>
+            <ListItem>Opening Ceremony</ListItem>
+            <ListItem>wedding decoration</ListItem>
+            <ListItem>haldi decoration</ListItem>
+            <ListItem>baby Shower decoration</ListItem>
+            <ListItem>ring Ceremony</ListItem>
           </List>
         </Center>
         <Right>
           <Title>Contect Us</Title>
           <ContectItem>
-            <Map /> 8, Third Floor, Sukh Sagar Complex, Near Kakdiya Hospital,
-            Bapunagar
+            <Map /> near Lalshot Pan Parlour, Shri Nagar Society, Sector 24,
+            Gandhinagar
             <br />
-            City: AHMEDABAD
+            City:GANDHINAGAR
             <br />
             State/province/area: GUJARAT
             <br />
-            Zip code 382350
+            Zip code 382024
             <br />
             Country India
           </ContectItem>

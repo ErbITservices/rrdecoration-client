@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { hero } from "../DummyData";
 import { mobile } from "../Responsive";
@@ -78,11 +78,17 @@ function Slider() {
   return (
     <Container>
       <ImageWrapper>
-        <Image src="https://www.fnpweddings.com/wp-content/uploads/2023/07/Mandap.jpg" />
+        <Image
+          className="main-img"
+          src="https://www.fnpweddings.com/wp-content/uploads/2023/07/Mandap.jpg"
+        />
       </ImageWrapper>
       <Info>
         <Title>{heroInfo.title}</Title>
         <Description>{heroInfo.description}</Description>
+        <Link to={"/"}>
+          <button className="btn">About Us</button>
+        </Link>
       </Info>
     </Container>
   );

@@ -287,6 +287,11 @@ box-shadow: 0 0 10px white;
     }
 }
 @media (max-width: 380px) {
+    .main-img{
+        margin-bottom: 50px;
+        border-radius: 25px;
+        max-width: 100%;
+    }
     .heading{
         font-size: 50px;
     }

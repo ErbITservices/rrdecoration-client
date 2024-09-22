@@ -225,15 +225,12 @@ justify-content: center;
 }
 .enquiry-container{
     /* background-color: #7546a5; */
+    
     text-align: center;
     width: 100%;
     height: 100%;
 }
-.enquiry-container{
-    /* background-color: aqua; */
-    width: fit-content;
-    /* background-color: aqua; */
-}
+
 .enquiry-container h1{
     font-size: 40px;
     margin: 30px 0px;
@@ -259,6 +256,13 @@ border: 1px solid black;
 background-color: #FFFAFA;
 color: #0a090b;
 box-shadow: 0 0 10px white;
+}
+.loader{
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media (max-width: 1100px){ 
     .heading{

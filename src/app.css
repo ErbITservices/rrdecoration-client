@@ -260,3 +260,59 @@ background-color: #FFFAFA;
 color: #0a090b;
 box-shadow: 0 0 10px white;
 }
+@media (max-width: 1100px){ 
+    .heading{
+        font-size: 60px;
+    }
+    .hero-text1 {
+        font-size: 70px;
+    }
+}
+@media (max-width: 750px){ 
+    .heading{
+        font-size: 50px;
+    }
+    .hero-text1 {
+        font-size: 60px;
+    }
+    .about-container{
+        display: block;
+        text-align: center;
+    }
+    .about-img{
+        width: 100%;
+    }
+    .about-text{
+        width: 100%;
+    }
+}
+@media (max-width: 350px) {
+    .heading{
+        font-size: 50px;
+    }
+    .main-container{
+        padding: 0;
+        margin: 50px 0px;
+    }
+    .hero-text2{
+        font-size: 20px;
+    }
+    .hero-text1{
+        font-size: 50px;
+    }
+    .gallery-container{
+        max-width: 80%;
+        display: flex;
+    border-radius: 20px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    .gallery-pic{
+        max-width: 300px;
+width: 280px;
+height: 200px;
+         
+    }
+}

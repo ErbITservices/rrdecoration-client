@@ -31,7 +31,7 @@ function ComplainRegister() {
   const handleSubmit = async () => {
     setloading(true);
     try {
-      const res = await publicRequest.post("api/request", user);
+      const res = await publicRequest.post("api/request", { user });
       console.log(res);
       setloading(false)
     }

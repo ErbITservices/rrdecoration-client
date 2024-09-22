@@ -34,6 +34,13 @@ function ComplainRegister() {
       const res = await publicRequest.post("api/request", { user });
       console.log(res);
       setloading(false)
+      setuser({
+        name: "",
+        mobilenumber: "",
+        email: "",
+        message: "",
+        address: "",
+      });
     }
     catch (e) {
       console.log(e);

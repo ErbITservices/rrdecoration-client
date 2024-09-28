@@ -13,12 +13,12 @@ import Map from "../components/Map";
 function Aboutus() {
   return (
     <>
-      <div
-        style={{ backgroundImage: `url(${mainbackground})` }}
-        className="backimg"
-      >
+      <div >
         <Navbar />
-        <div className="main-container backimg">
+        <div
+          style={{ backgroundImage: `url(${mainbackground})` }}
+          className="main-container backimg"
+        >
           <div className="hero-text">
             <h2 className="hero-text2"> Decor For All Your</h2>
 
@@ -31,7 +31,7 @@ function Aboutus() {
             </Link>
           </div>
         </div>
-        <Services  />
+        <Services />
         <About />
         <Gallery />
         <Contectus />

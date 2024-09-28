@@ -28,7 +28,7 @@
 .backimg{
     background-size: auto;
     background-repeat: no-repeat;
-    /* background-position: center; */
+    background-position:center;
 }
 .hero-text{
     text-align: center;
@@ -110,6 +110,12 @@
     padding: 10px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.553);
     line-height: 25px;
+}
+.service-card:hover {
+  transition: ease all 0.3s;
+  /* max-width: 30%; */
+  box-shadow: 0 8px 32px 0 rgb(32, 35, 69);
+  transform: scale(1.03);
 }
 .service-card h1{
     font-size: 30px;
@@ -301,7 +307,7 @@ box-shadow: 0 0 10px white;
     }
     .main-container{
         padding: 0;
-        margin: 50px 0px;
+        margin: 0px 0px;
     }
     .hero-text2{
         font-size: 30px;

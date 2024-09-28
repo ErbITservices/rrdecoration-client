@@ -102,10 +102,10 @@ function Contectus() {
           <h1>Our Timings</h1>
           <p>Mon - Sun : 10:00 AM - 07:00 PM</p>
         </div>
-        <Link to={"/ComplainRegister"}>
-          <button className="btn">Enquiry Now</button>
-        </Link>
       </div>
+      <Link to={"/ComplainRegister"}>
+        <button className="btn">Enquiry Now</button>
+      </Link>
     </Container>
   );
 }

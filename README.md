@@ -57,22 +57,10 @@ rrdecoration-client/
 
 1. **Clone the repository:**
 
-   ```bash
+```bash
    git clone https://github.com/ErbITservices/rrdecoration-client.git
    cd rrdecoration-client
-  ```
-
----
-
-## 📦 Installation
-
-1. **Clone the repository:**
-
- ```bash
-git clone https://github.com/ErbITservices/book-portal-client.git
-cd book-portal-client
 ```
-
 2. **Install dependencies:**
 
 ```bash
@@ -81,7 +69,7 @@ cd book-portal-client
 3. **Start the development server:**
 
 ```bash
-npm run dev
+   npm run dev
 ```
 4. **Open your browser and visit:**
 
